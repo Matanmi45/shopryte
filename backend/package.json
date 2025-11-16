@@ -13,8 +13,11 @@
   "description": "Shopryte is a marketplace application for buying and selling products online.",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "formidable": "^3.5.4",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.4",
     "nodemailer": "^7.0.10",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.5",
+    "@types/formidable": "^3.4.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.10.1",
     "@types/nodemailer": "^7.0.3",
